@@ -15,5 +15,18 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
+  
+  contacts.each do |name, value|
+    
+    value.each do |attribute, value|
+      
+      if attribute == "favorite_ice_cream_flavors"
+        
+         attribute.
+      end
+      
+    end
+    
+  end
 
 end
